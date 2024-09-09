@@ -1,0 +1,70 @@
+.payment-method-container {
+  padding: 20px;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.payment-options button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: #f1f1f1;
+}
+
+.payment-options .selected {
+  background-color: #28a745;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.cash-on-delivery-info {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.pay-now-button {
+  background-color: #007bff;
+}
+
+.pay-now-button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.confirm-order-button {
+  background-color: #007bff;
+}
